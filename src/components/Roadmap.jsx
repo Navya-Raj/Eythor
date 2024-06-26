@@ -7,9 +7,9 @@ import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
-  <Section className="overflow-hidden" id="team">
+  <Section className="overflow-hidden" id="">
     <div className="container md:pb-10">
-      <Heading tag="Our team" title="Our Team" />
+      <Heading tag="just the beginning" title="Our Winnings" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
@@ -34,9 +34,9 @@ const Roadmap = () => (
                 </div>
                 <div className="relative z-1">
                   <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
-                    <Tagline>linkedin</Tagline>
+                    <Tagline>{item.date}</Tagline>
 
-                    <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
+                    {/* <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                       <img
                         className="mr-2.5"
                         src={item.status === "done" ? check2 : loading1}
@@ -45,7 +45,7 @@ const Roadmap = () => (
                         alt={status}
                       />
                       <div className="tagline">{status}</div>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="mb-10 -my-10 -mx-15">
@@ -68,9 +68,9 @@ const Roadmap = () => (
         <Gradient />
       </div>
 
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+      {/* <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         <Button href="/roadmap">Our roadmap</Button>
-      </div>
+      </div> */}
     </div>
   </Section>
 );

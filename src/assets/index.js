@@ -42,14 +42,21 @@ import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
 
+import goal6 from "./goal6.png";
+import goal7 from "./goal7.png";
+import goal8 from "./goal8.png";
+import goal9 from "./goal9.png";
+import goal11 from "./goal11.png";
+import goal13 from "./goal13.png";
+
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
+import roadmap1 from "./roadmap/roadmap1.png";
+import roadmap2 from "./roadmap/roadmap2.jpg";
 import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
@@ -76,6 +83,12 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import map from "./map.svg";
+
+import dtu from "./dtu.png";
+import tihan from "./tihan.png";
+import startupindia from "./startupindia.png";
+import dif from "./dif.webp";
 
 export {
   brainwave,
@@ -118,6 +131,12 @@ export {
   service1,
   service2,
   service3,
+  goal6,
+  goal7,
+  goal8,
+  goal9,
+  goal11,
+  goal13,
   lines,
   stars,
   coins,
@@ -148,4 +167,9 @@ export {
   instagram,
   telegram,
   twitter,
+  dtu,
+  tihan,
+  startupindia,
+  dif,
+  map
 };

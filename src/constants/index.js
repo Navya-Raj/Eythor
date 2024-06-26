@@ -34,6 +34,18 @@ import {
   telegram,
   twitter,
   yourlogo,
+  goal6,
+  goal7,
+  goal8,
+  goal9,
+  goal11,
+  goal13,
+  dtu,
+  tihan,
+  startupindia,
+  dif,
+  robot,
+  map
 } from "../assets";
 
 export const navigation = [
@@ -49,24 +61,24 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "Team",
-    url: "#team",
+    title: "Our Mission",
+    url: "#mission",
   },
   {
     id: "3",
-    title: "Testimonials",
-    url: "#testimonials",
+    title: "Team",
+    url: "#team",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Contact Us",
+    url: "#contact",
     onlyMobile: true,
   },
 ];
@@ -75,56 +87,58 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [tihan, dtu, startupindia, dif];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Advanced panel temperature sensing.",
+  "Innovative dust sensing on solar panels.",
+  "Efficient cleaning with vacuum technology.",
 ];
 
 export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
+  goal6,
+  goal7,
+  goal8,
+  goal9,
+  goal11,
+  goal13,
 ];
 
 export const roadmap = [
   {
     id: "0",
-    title: "Naveen",
-    text: "Founder",
-    date: "https://www.linkedin.com/in/naveen-kumar-eythor/",
+    title: "IMC 2023 Winner",
+    text: "Lorem ipsum dolor sit amet. At blanditiis aperiam non fugit maxime qui excepturi dolores non explicabo illum non ipsa sequi quo provident ipsum. ",
+    date: "May 2023",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Winner",
+    text: "Lorem ipsum dolor sit amet. At blanditiis aperiam non fugit maxime qui excepturi dolores non explicabo illum non ipsa sequi quo provident ipsum. ",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap2,
+    colorful: true,
   },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
+  // {
+  //   id: "2",
+  //   title: "Chatbot customization",
+  //   text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+  //   date: "May 2023",
+  //   status: "done",
+  //   imageUrl: roadmap3,
+  // },
+  // {
+  //   id: "3",
+  //   title: "Integration with APIs",
+  //   text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+  //   date: "May 2023",
+  //   status: "progress",
+  //   imageUrl: roadmap4,
+  // },
 ];
 
 export const collabText =
@@ -134,12 +148,12 @@ export const collabContent = [
   {
     id: "0",
     title: "Efficient and Adaptive",
-    text: "The automatic cleaning method for small smart devices is designed according to the basic specifications of photovoltaic panels. It is suitable for most photovoltaic panel installations, with strong adaptability, high cleaning efficiency, and flexible cleaning cycles.",
+    text: "At Eythor, we focus on developing innovative sustainable solutions to the world's climate crisis.",
   },
   {
     id: "1",
-    title: "Large Scale",
-    text: "The manual cleaning method for large-scale equipment has high cleaning efficiency and is only suitable for large-scale photovoltaic power plants with excellent geographical environment, and the cleaning cost is high.",
+    title: "Eyto - Our first innovation",
+    text: "Enhances the solar power harnessing capacity of solar panels while removing the need for manual power, as well as water consumption in order to clean them.",
   },
   // {
   //   id: "2",
@@ -210,37 +224,40 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    title: "Naveen Kumar",
+    description: "Founder, CEO",
+    imageUrl: robot,
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
+    title: "Lucky Rana",
+    description: "Co-Founder, CTO",
+    imageUrl: robot,
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    title: "Ananya Singh",
+    description: "Lead Designer",
+    imageUrl: robot,
   },
+  {
+    id: "3",
+    title: "Pratham Singh",
+    description: "Product Researcher",
+    imageUrl: robot,
+  },
+  {
+    id: "4",
+    title: "Anup Kumar",
+    description: "Electronics Engineer",
+    imageUrl: robot,
+  },
+  {
+    id: "5",
+    title: "Esha Yadav",
+    description: "Data Analyst",
+    imageUrl: robot,
+  }
 ];
 
 export const benefits = [
@@ -299,8 +316,8 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
+    title: "Map",
+    iconUrl: map,
     url: "#",
   },
   {

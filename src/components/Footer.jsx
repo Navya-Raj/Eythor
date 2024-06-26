@@ -9,6 +9,10 @@ const Footer = () => {
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. All rights reserved.
         </p>
+        <p className="caption text-n-4 lg:block w-[12rem]">
+          Made in India
+        </p>
+        
 
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (
