@@ -22,7 +22,7 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-6">
+          <h1 className="h1 mb-6 text-black">
             Harness Peak Solar&nbsp;Performance&nbsp; with {` `}
             <span className="inline-block relative">
               Eythor{" "}
@@ -35,7 +35,7 @@ const Hero = () => {
               />
             </span>
           </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-4 lg:mb-8">
             Maximize Solar Efficiency with Eythor, the Ultimate Robotic Cleaning Solution
           </p>
           <Button href="#about" white>
@@ -79,7 +79,7 @@ const Hero = () => {
 
             <Gradient />
           </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          {/* <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
               className="w-full"
@@ -87,12 +87,12 @@ const Hero = () => {
               height={1800}
               alt="hero"
             />
-          </div>
+          </div> */}
 
           <BackgroundCircles />
         </div>
 
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        <CompanyLogos className="hidden relative z-10 mt-20 lg:block mb-5" />
       </div>
 
       <BottomLine />
