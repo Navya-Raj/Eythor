@@ -33,7 +33,7 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
+            <div className="relative z-1 max-w-[18rem] ml-auto p-5 bg-white bg-opacity-50 backdrop-blur-sm">
               <h4 className="h4 mb-4">Sustainable Innovation</h4>
               <p className="body-2 mb-[3rem] text-n-6">
               At Eythor, we are dedicated to developing innovative and sustainable solutions to address the global climate crisis. Our mission is to revolutionize the solar energy industry with cutting-edge technology that maximizes efficiency and minimizes environmental impact.
@@ -66,7 +66,7 @@ const Services = () => {
                 />
               </div> */}
 
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/40 lg:p-15">
+              <div className="absolute inset-0 flex flex-col justify-end p-8 lg:p-15 rounded-3xl border-2 border-black bg-n-1">
                 <h4 className="h4 mb-4 text-n-8">The Challenges</h4>
                 <p className="body-2 mb-[3rem] text-n-6">
                   Robotic cleaning on a 1 GW plant comes with the need to keep in mind Time-consuming, Uneven Cleaning, Electrical Hazards, and Damage to Panels.

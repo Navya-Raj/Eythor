@@ -133,13 +133,17 @@ const Contact = () => {
             />
           </label>
 
-          <button
+          {/* <button
             type='submit'
             className='bg-white py-3 px-8 rounded-xl outline-none w-fit text-black font-bold shadow-md shadow-primary'
           >
             
-            {loading ? "Sending..." : "Send"}
-          </button>
+            {loading ? "ending..." : "Send"}
+          </button> */}
+          <Button type='submit' className="ml-auto">
+          {loading ? "Sending..." : "Send"}
+
+          </Button>
         </form>
             </div>
 

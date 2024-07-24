@@ -4,28 +4,29 @@ import Button from "./Button";
 
 const PricingList = () => {
   return (
-    <div id="team" className="flex gap-[1rem] max-lg:flex-wrap">
-      {pricing.map((item) => (
-        <div
-          key={item.id}
-          className="w-[19rem] max-lg:w-full h-full px-6 bg-n-1 border border-n-6 rounded-[2rem] lg:w-[19rem] py-8 my-4 text-color-0"
-        >
-          <h4 className="h4 mb-4 text-n-6">{item.title}</h4>
+    <div id="team" className="flex gap-[1rem] flex-wrap max-lg:flex-wrap overflow-x-auto">
+      <div className="flex flex-row space-x-4">
+        {pricing.map((item) => (
+          <div
+            key={item.id}
+            className="w-[550px] max-lg:w-full h-auto px-6 bg-n-1 border border-n-6 rounded-[2rem] lg:w-[550px] py-8 my-4 text-color-0"
+          >
+            <h4 className="h4 mb-4 text-n-6">{item.title}</h4>
 
-          <p className="body-2 min-h-[4rem] mb-3 text-n-8/50">
-            {item.description}
-          </p>
+            <p className="body-2 min-h-[4rem] mb-3 text-n-8/50">
+              {item.description}
+            </p>
 
-          {/* <div className="flex items-center h-[5.5rem] mb-6">
-            {item.price && (
-              <>
-                <div className="h3">$</div>
-                <div className="text-[5.5rem] leading-none font-bold">
-                  {item.price}
-                </div>
-              </>
-            )}
-          </div> */}
+            {/* <div className="flex items-center h-[5.5rem] mb-6">
+              {item.price && (
+                <>
+                  <div className="h3">$</div>
+                  <div className="text-[5.5rem] leading-none font-bold">
+                    {item.price}
+                  </div>
+                </>
+              )}
+            </div> */}
 
           <div className="flex items-center h-[5.5rem] mb-6">
             {item.imageUrl && (
@@ -42,19 +43,9 @@ const PricingList = () => {
             Connect
           </Button>
 
-          {/* <ul>
-            {item.features.map((feature, index) => (
-              <li
-                key={index}
-                className="flex items-start py-5 border-t border-n-6"
-              >
-                <img src={check} width={24} height={24} alt="Check" />
-                <p className="body-2 ml-4">{feature}</p>
-              </li>
-            ))}
-          </ul> */}
-        </div>
-      ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
